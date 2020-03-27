@@ -1,0 +1,32 @@
+{
+  "name": "@careteen/dva",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "dva": "^2.4.1",
+    "keymaster": "^1.6.2",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/careteenL/dva.git"
+  },
+  "keywords": [
+    "dva",
+    "@careteen/dva"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/careteenL/dva/issues"
+  },
+  "homepage": "https://github.com/careteenL/dva#readme"
+}

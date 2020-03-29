@@ -8,3 +8,4 @@
 - [dynamic](./dynamic)
 - [redux-logger](./redux-logger)
 - [redux-undo](./redux-undo)
+- [redux-persist](./redux-persist)

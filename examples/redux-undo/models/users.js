@@ -9,7 +9,12 @@ export default {
   },
   reducers: {
     add(state, action) {
-      state.list.push({ id: 3, name: action.payload });
+      return {
+        list: [
+          ...state.list,
+          { id: 3, name: action.payload }
+        ]
+      }
     }
   },
   effects: {

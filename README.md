@@ -15,6 +15,7 @@
   - [x] `dynamic`
   - [x] [redux-undo](./plugins/redux-undo.js)
   - [x] [redux-persist](./plugins/redux-persist)
+  - [x] [redux-immer](./plugins/redux-immer.js)
 - [x] 支持`middleware`
   - [x] [redux-logger](./middlewares/redux-logger.js)
 

@@ -43,8 +43,8 @@ function Counter(props) {
 }
 const ConnectedCounter = connect(
   (state) => ({
-    ...state.present.counter,
-    loading: state.present.loading.models.counter
+    ...state.counter,
+    loading: state.loading.models.counter
   })
 )(Counter);
 const Home = (props) => (
@@ -54,7 +54,7 @@ const Home = (props) => (
   </div>
 )
 const ConnectedHome = connect(
-  (state) => state.present
+  (state) => state
 )(Home);
 
 app.router(({ history, app }) => {

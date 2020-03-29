@@ -15,5 +15,5 @@ function UserPage(props) {
 }
 
 export default connect(
-  state => state.present.users
+  state => state.users
 )(UserPage);

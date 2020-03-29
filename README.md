@@ -18,7 +18,7 @@
   - [x] [redux-immer](./plugins/redux-immer.js)
 - [x] 支持`middleware`
   - [x] [redux-logger](./middlewares/redux-logger.js)
-- 支持捕获错误
+- [x] 支持捕获错误
 
 > [示例](./examples)
 

@@ -9,7 +9,14 @@
 
 学习并仿写`dva`，目前已提供基础功能。
 
-- [ ] 基础功能
+- [x] 基础功能
+- [x] 支持plugin
+  - [x] [dva-loading](./plugins/dva-loading)
+  - [x] dynamic
+  - [x] [redux-undo](./plugins/redux-undo)
+- [x] [redux-logger](./middlewares/redux-logger)
+
+> [示例](./examples)
 
 ## 快速使用
 

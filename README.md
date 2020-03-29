@@ -14,6 +14,7 @@
   - [x] [dva-loading](./plugins/dva-loading.js)
   - [x] `dynamic`
   - [x] [redux-undo](./plugins/redux-undo.js)
+  - [x] [redux-persist](./plugins/redux-persist)
 - [x] 支持`middleware`
   - [x] [redux-logger](./middlewares/redux-logger.js)
 

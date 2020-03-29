@@ -10,3 +10,4 @@
 - [redux-undo](./redux-undo)
 - [redux-persist](./redux-persist)
 - [redux-immer](./redux-immer)
+- [catch-error](./catch-error)

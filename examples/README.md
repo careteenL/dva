@@ -9,5 +9,5 @@
 - [redux-logger](./redux-logger)
 - [redux-undo](./redux-undo)
 - [redux-persist](./redux-persist)
-- [redux-immer](./redux-immer)
+- [dva-immer](./dva-immer)
 - [catch-error](./catch-error)

@@ -1,5 +1,5 @@
 {
-  "name": "redux-immer",
+  "name": "dva-immer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

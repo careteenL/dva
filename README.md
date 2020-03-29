@@ -11,11 +11,11 @@
 
 - [x] 基础功能
 - [x] 支持`plugin`
-  - [x] [dva-loading](./plugins/dva-loading)
+  - [x] [dva-loading](./plugins/dva-loading.js)
   - [x] `dynamic`
-  - [x] [redux-undo](./plugins/redux-undo)
+  - [x] [redux-undo](./plugins/redux-undo.js)
 - [x] 支持`middleware`
-  - [x] [redux-logger](./middlewares/redux-logger)
+  - [x] [redux-logger](./middlewares/redux-logger.js)
 
 > [示例](./examples)
 

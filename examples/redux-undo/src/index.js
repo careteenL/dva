@@ -9,6 +9,7 @@ import undoable, { ActionCreators } from '../../../plugins/redux-undo';
 let { ConnectedRouter, push } = routerRedux;
 
 let app = dva({
+  initialState: localStorage.getItem('state') ? JSON.parse(localStorage.getItem('state')) : undefined,initialState: localStorage.getItem('state') ? JSON.parse(localStorage.getItem('state')) : undefined,
     //它是用来封装和增强reducer
     onReducer: reducer => {
       let undoReducer = undoable(reducer);
@@ -21,6 +22,12 @@ let app = dva({
 app.use(createLoading());
 app.use({
   onAction: logger
+});
+app.use({
+  //当状态发生变化之后会执行监听函数
+  onStateChange(state) {
+      localStorage.setItem('state', JSON.stringify(state));
+  }
 });
 app.model({
   namespace: 'counter',
